@@ -56,7 +56,7 @@ public class Main {
         int monthlyDeposit = 29000;     // Переводы в месяц
         for (int month = 1; month <= 12; month++) {
             savings += monthlyDeposit;
-            System.out.printf("Месяц %2d, сумма накоплений равна %6d рублей%n", month, savings);
+            System.out.printf("Месяц %2d, сумма накоплений равна %6d рублей\n", month, savings);
         }
 
 
@@ -66,7 +66,7 @@ public class Main {
         for (int month = 1; month <= 12; month++) {
             savings  = savings + savings/100;
             savings += monthlyDeposit;
-            System.out.printf("Месяц %2d, сумма накоплений равна %6d рублей%n", month, savings);
+            System.out.printf("Месяц %2d, сумма накоплений равна %6d рублей\n", month, savings);
         }
 
 
