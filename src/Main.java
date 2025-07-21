@@ -83,7 +83,17 @@ public class Main {
                 System.out.printf("Месяц %3d, сумма накоплений равна %12.2f рублей\n", month, savingsVasily);
             }
         }
-        System.out.println();
+
+
+        // Задача 7 - Напоминание о пятнице
+        System.out.println("\nЗадача 7");
+        int firstFriday = 4;        // Первая пятница в месяце (например, 4-е число)
+        for (int day = firstFriday; day <= 31; day += 7) {
+            System.out.printf("Сегодня пятница, %2d-е число. Необходимо подготовить отчет%n", day);
+        }
+
+
+
 
     }
 }
