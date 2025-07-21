@@ -93,7 +93,16 @@ public class Main {
         }
 
 
+        // Задача 8 - Годы появления кометы
+        System.out.println("\nЗадача 8");
+        int currentYear = 2025;
+        int startYear   = currentYear - 200;    // Начало отсчета времени
+        int endYear     = currentYear + 100;    // Конец отсчета времени
 
-
+        for (int year = startYear; year <= endYear; year++) {
+            if (year % 79 == 0) {
+                System.out.println(year);
+            }
+        }
     }
 }
