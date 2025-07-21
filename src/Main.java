@@ -60,12 +60,12 @@ public class Main {
         }
 
 
-        // Задача 9 - Сумма годовых накоплений + 12%
+        // Задача 9 - Сумма годовых накоплений 12% (1% в месяц)
         System.out.println("\nЗадача 9");
         savings = 0;
         for (int month = 1; month <= 12; month++) {
-            savings  = savings + savings/100;
             savings += monthlyDeposit;
+            savings  = savings + savings/100;
             System.out.printf("Месяц %2d, сумма накоплений равна %6d рублей\n", month, savings);
         }
 
